@@ -2,7 +2,6 @@
 
 Goal: Remove the vehicles from the video. And get the background by taking the mean of frames.
 
-<h3>Input</h3>
 <table>
   <tr>
     <th><h3>Input</h3></th>
@@ -15,3 +14,13 @@ Goal: Remove the vehicles from the video. And get the background by taking the m
 </table>
 
 Input/Output is provided in Data Folder.
+
+<h2>background-extraction-video-fixed-area</h2>
+<p>In this file, running average concept is applied on the road section of the frame. That is done by the following steps.</p>
+<ol>
+  <li>Crop the road section from the frame.</li>
+  <li>Apply the running average on the cropped frame.</li>
+  <li>Absolute difference between original image and cropped image.</li>
+  <li>Add the running average image and absolute difference image.</li>
+</ol>
+  
