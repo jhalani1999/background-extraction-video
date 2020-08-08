@@ -1,4 +1,4 @@
-# background-extraction-video
+<h2>background-extraction-video</h2>
 
 Goal: Remove the vehicles from the video. And get the background by taking the mean of frames.
 
